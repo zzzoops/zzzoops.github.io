@@ -1,0 +1,3156 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="en"
+      
+      data-dark-mode="true"
+      
+      
+      data-follow-system="false"
+      
+>
+<head>
+    
+    
+        <noscript>
+            <div id="nojs">
+                <h1>Please Enable JavaScript</h1>
+                <meta http-equiv="refresh" content="0; url =/help/rules/?nojs=True">
+            </div>
+        </noscript>
+    
+
+        
+		<title>Grundo's Cafe -  oops&#x27;s userlookup</title>
+        
+
+		
+
+        <meta name="viewport" content="width=955, user-scalable=yes" initial-scale=1 viewport-fit=cover">
+        <meta name="description" content="Grundo's Cafe is a free online fan-community inspired by early 2000s Neopets. Join us for fun, games, and lots of nostalgia!">
+        
+
+
+
+<meta name="csrf-token" content="vZ47FABXMLJ5nZnaYr7xyYmNvVSzEJuSEvMoeMrhddPp6bS6q6NB9HPhI57n6P7A">
+<style>
+    :root {
+        --bgcolor: #42425c;
+        --color: #cbe4e1;
+        --link_color: #cba76d;
+        --hover_color: #acc484;
+        --grid_head: #3b546b;
+        --grid_select: #8a6950;
+        --grid_odd: #4b384f;
+        --grid_even: #4b5a46;
+        
+        --top-height: max(6vh, 95px);
+        --mobile_font_size: 18px;
+        --search_helper_width: 40px;
+    }
+</style>
+
+<link rel="icon" href="/static/images/favicon.ico">
+
+        <link rel="apple-touch-icon" href="https://grundoscafe.b-cdn.net/icons/gc_icon.png">
+        <meta name="apple-mobile-web-app-title" content="Grundo's Cafe">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="manifest" href="/static/manifest.json">
+
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2048-2732.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2732-2048.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1668-2388.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2388-1668.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1536-2048.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2048-1536.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1488-2266.jpg" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2266-1488.jpg" media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1640-2360.jpg" media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2360-1640.jpg" media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1668-2224.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2224-1668.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1620-2160.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2160-1620.jpg" media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1290-2796.jpg" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2796-1290.jpg" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1179-2556.jpg" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2556-1179.jpg" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1284-2778.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2778-1284.jpg" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1170-2532.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2532-1170.jpg" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1125-2436.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2436-1125.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1242-2688.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2688-1242.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-828-1792.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1792-828.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1242-2208.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-2208-1242.jpg" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-750-1334.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1334-750.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-640-1136.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+        <link rel="apple-touch-startup-image" href="https://grundoscafe.b-cdn.net/icons/splash/apple-splash-1136-640.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="stylesheet" type="text/css" href="/static/css/normalize.css">
+<link rel="stylesheet" type="text/css" href="/static/css/sprites.css">
+<link rel="stylesheet" type="text/css" href="/static/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+<link rel="stylesheet" type="text/css" href="/static/css/utility_style.css">
+<link rel="stylesheet" type="text/css" href="/static/css/pet_color_text.css">
+
+
+<!-- Default Theme -->
+
+
+<link id="sitetheme" rel="stylesheet" type="text/css"
+      data-dark-href="/static/css/themes/default_dark.css"
+      data-default-href="/static/css/themes/default.css"
+      href="/static/css/themes/jelly.css">
+
+<link id="darkmode_stylesheet" rel="stylesheet" type="text/css"
+      
+      href="/static/css/style_darkmode.css"
+      
+      data-href="/static/css/style_darkmode.css">
+
+
+
+
+
+
+<script>
+    var sec = 25;
+    var min = 6;
+    var hrs = 4;
+</script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<script src="/static/js/moon.js"></script>
+
+<script src="/static/js/nst_clock.js"></script>
+<script src="/static/js/aio_loader.js"></script>
+<script src="/static/js/menu_toggles.js"></script>
+
+<script src="/static/js/aio-menu-toggle-for-keep.js"></script>
+
+<script src="/static/js/site_scripts.js" defer></script>
+<script src="/static/js/password-shower.js"></script>
+<script src="/static/js/inventory-functions.js"></script>
+
+
+
+  
+  <script src="/webpush/jsi18n/" defer></script>
+  <script id="webpush-js" type="text/javascript" src="/static/webpush/webpush.js"></script>
+  
+  <meta name="service-worker-js" content="/webpush/service-worker.js">
+  <meta name="django-webpush-vapid-key" content="BHd9x1jfPVary4ScHdv17hnvyXLwQY6un2qlq2ATgBliyYt8ngzNuy7lcUz9c1foXawwxhHs9aIhzE5bjCmTK3E">
+
+    </head>
+
+    <body class="body-loading">
+
+        
+
+
+
+        <div id="container">
+            
+
+            <div id="sb_top" class="sb_top">
+                <div id="homepage_link">
+                    <a href="/">
+                        <div id="homepage_link_inner"></div>
+                    </a>
+                </div>
+                <div class="top-bar-items">
+                    <label onclick="toggleSideMenuCheck()" class="top-bar-item side-menu-label" for="side-menu-toggle"  tabindex="1">
+                        <div id="side-menu-wrapper">
+                                <input type="checkbox" id="side-menu-toggle">
+                                <div class="side-menu-icon">
+                                   <div></div>
+                                   <div></div>
+                                   <div></div>
+                                </div>
+                        </div>
+                    </label>
+                    <div class="mobile-top-bar-item" id="site-back-button" onclick="goBack()" tabindex="2">
+                        <em id="site-back-button-icon" class="top-bar-icon fa fa-play flip"></em>
+                    </div>
+                     <div class="mobile-top-bar-item" id="mobile-alerts" tabindex="3">
+                                <div id="page_notif" >
+            
+        </div>
+
+        
+                    </div>
+                <!-- User Information -->
+                    <a href="/" class="mobile-top-bar-item top-bar-gc-logo">
+                        <img id="top-bar-logo" class="top-bar-image margin-auto" src="https://grundoscafe.b-cdn.net/logo/gc_glow.png">
+                    </a>
+                    <div class="mobile-top-bar-item nst-mobile-container">
+                        <span class="nst mobile"><span id="NST_clock_hours-mobile">4</span>:<span id="NST_clock_minutes-mobile">06</span>:<span id="NST_clock_seconds-mobile">25</span><span class="am_or_pm">&nbsp;pm</span><span class="nst-text">&nbsp;NST</span></span>
+                    </div>
+                    <div id="userinfo" class="user-info">
+                        <span id="top-bar-info">
+                            <a rel="nofollow" id="show-mobile-toggle" class="show-mobile-toggle" href="/help/siteprefs/?redirect=/userlookup/&mobilemode">
+                                <strong class="fas fa-mobile"></strong>
+                            </a>
+                            <a rel="nofollow" id="dark-mode-toggle" href="/help/siteprefs/?redirect=/userlookup/&darkmode=true">
+                                <span id="howlatthe" title="Moon"></span>
+                            </a>
+
+                            
+                                
+<span id="user-info-welcome-text" class="user-info-welcome-text">Welcome, </span>
+<a id="user-info-username" class="user-info-username" href="/userlookup/?user=oops">oops</a>
+<a class="user-info-icon" href="/userlookup/?user=oops"><i class="fa fa-user"></i></a>
+<span class="after-un-divider">|</span>
+<span class="user-info-pet-texts">
+
+    <span id="user-info-pet-text" class="user-info-pet-text">Pet: </span>
+    <a id="user-info-pet" class="user-info-pet" href="/quickref/">Whew</a>
+
+</span>
+<span class="after-pn-divider">|</span>
+<span id="user-info-np-text" class="user-info-np-text"> NP: </span>
+<a id="on-hand-np" class="on-hand-np" href="/inventory/">166,505</a>
+<a class="user-info-np-icon" href="/inventory/"><i class="fa fa-coins"></i></a>
+
+
+
+
+                            
+                        </span>
+                    </div>
+                    <div class="mobile-top-bar-item search-input-holder">
+                        <input type="text" id="top-bar-search-input" oninput="filterDropdown()" placeholder="Search Grundo's Cafe..." value="">
+                        <div class="search-dropdown-list display-none" id="search-dropdown"></div>
+                    </div>
+                    <div class="mobile-top-bar-item" onclick="toggleSearchBar()"  id="top-bar-search-btn" tabindex="4">
+                        <em class="top-bar-icon fas fa-search"></em>
+                    </div>
+                    <div class="mobile-top-bar-item" id="aio-menu-toggle">
+                        <img class="aio-menu-icon" src="https://grundoscafe.b-cdn.net/pets/circle/aisha_baby.gif" alt="AIO Menu">
+                    </div>
+                </div>
+            </div>
+
+			<!--site sidebar-->
+            <div id="sb_side">
+                <nav id="sb_nav" aria-label="Sidebar">
+					<!--sidebar navigation-->
+                    <a href="/addpet/" title="Create a Pet" class="block"><div id="sb_createpet"></div></a>
+                    <a href="/petcentral/" title="Pet Central" class="block"><div id="sb_petcentral"></div></a>
+                    <a href="/explore/" title="Explore" class="block"><div id="sb_explore"></div></a>
+                    <a href="/games/" title="Games" class="block"><div id="sb_games"></div></a>
+                    <a href="/neomessages/" title="Neomail" class="block"><div id="sb_neomail"></div></a>
+                    <a href="/objects/" title="Shops" class="block"><div id="sb_shops"></div></a>
+                    <a href="/neoboards/" title="Boards" class="block"><div id="sb_boards"></div></a>
+                    <a href="/nf/" title="News" class="block"><div id="sb_news"></div></a>
+                    <a href="/topneopets/" title="Stuff" class="block"><div id="sb_stuff"></div></a>
+                    <a href="/help/" title="Help" class="block"><div id="sb_help"></div></a>
+                    <a href="/login/" title="Login" class="block"><div id="sb_login"></div></a>
+                    <a onclick="if(confirm('Are you sure you want to logout?')) { document.getElementById('logout-form').submit(); } return false;" href="/logout/" title="Logout" class="block"><div id="sb_logout"></div></a>
+                    <form id="logout-form" action="/logout/" method="post" class="hidden-form">
+                         <input type="hidden" name="csrfmiddlewaretoken" value="vZ47FABXMLJ5nZnaYr7xyYmNvVSzEJuSEvMoeMrhddPp6bS6q6NB9HPhI57n6P7A">
+                    </form>
+                </nav>
+                <div id="sb_clock">
+					<!--clock-->
+                    <span class="nst"><span id="NST_clock_hours">4</span>:<span id="NST_clock_minutes">06</span>:<span id="NST_clock_seconds">25</span> pm NST</span>
+                </div>
+                <div id="sb_search">
+					<!--search-->
+                    <form action="/search/" method=get>
+                        <div class="form-group small-gap">
+                            <label class="form-label" for="searchquery">Search Grundo's Cafe:</label>
+                            <div class="sb_form flex small-gap">
+                                <input class="form-control full-width ignore-input-size" type="text" name="query" id="searchquery" value="" placeholder="">
+                                <input class="form-control ignore-button-size" type="submit" value="Go!">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div id="sb_banner">
+				<!--side banner image-->
+                    <a href="/games/html5/webofvernax/"><img id="side-banner-img" src="https://grundoscafe.b-cdn.net/misc/banners/side_banner_webofvernax.gif"></a>
+                </div>
+                <div id="sb_lang">
+					<!--select language/ custom css toggle-->
+                    <div class="form-group small-gap">
+                        <label class="form-label" for="lang">Select language:</label>
+                        <div class="sb_form flex small-gap">
+                            <div class="select-wrapper full-width ignore-input-size">
+                                <select class="form-control" name="lang" id="lang">
+                                    <option value="en" selected>English</option>
+                                </select>
+                            </div>
+                            <input class="form-control ignore-button-size" type="submit" value="Go!">
+                        </div>
+                        
+                            <a rel="nofollow" class="sb-custom-css" href="/help/siteprefs/?redirect=/userlookup/&togglecss">turn off custom css</a>
+                        
+                    </div>
+                </div>
+                <div id="sb_edge" class="bottom_1"> <!-- css handled --></div>
+            </div>
+
+
+
+			<!--notifications and banner-->
+
+            
+            <div id="page_banner">
+                        <div id="page_notif" >
+            
+        </div>
+
+        
+        <div id="slide-menu" class="sliding-menu">
+                <div class="notification-card" onclick="toggleMenu()">
+                    <div class="notification-icon hide-icon"><strong><i class="fa fa-caret-left"></i></strong></div>
+                    <div class="notification-description">Hide</div>
+                </div>
+                <div class="notification-card all-alerts-card" onclick="document.location.href='/allevents/'">
+                    <div class="notification-description"><h2><a href="/allevents/">All Alerts</a></h2></div>
+                </div>
+
+                
+                
+        </div>
+
+        <script>
+        function toggleMenu() {
+            var menu = document.getElementById("slide-menu");
+            if (menu.style.left === "-100vw" || menu.style.left === "") {
+                menu.style.left = "0";
+                setTimeout(() => {
+                    document.addEventListener('click', outsideClickListener);
+                }, 0);
+            } else {
+                menu.style.left = "-100vw";
+                document.removeEventListener('click', outsideClickListener);
+            }
+        }
+
+        function outsideClickListener(event) {
+            var menu = document.getElementById("slide-menu");
+            if (!menu.contains(event.target) && menu.style.left === "0px") {
+                menu.style.left = "-100vw";
+                document.removeEventListener('click', outsideClickListener);
+            }
+        }
+
+        function deleteAlert(alertElementId, alertId) {
+            var alertElement = document.getElementById(alertElementId);
+            $.ajax({
+                url: '/delete_alert/',
+                type: 'POST',
+                data: {
+                    alert_id: alertId,
+                    csrfmiddlewaretoken: 'vZ47FABXMLJ5nZnaYr7xyYmNvVSzEJuSEvMoeMrhddPp6bS6q6NB9HPhI57n6P7A'
+                },
+                success: function(response) {
+                    if (response.success) {
+                        // Remove alert from DOM
+                        alertElement.parentNode.removeChild(alertElement);
+                    } else {
+                        console.log('Failed to delete alert.');
+                    }
+                },
+                error: function() {
+                     console.log('Error deleting alert.');
+                }
+            });
+        }
+
+        function deleteAllAlerts() {
+            $.ajax({
+                url: '/delete_all_alerts/',
+                type: 'POST',
+                data: {
+                    csrfmiddlewaretoken: 'vZ47FABXMLJ5nZnaYr7xyYmNvVSzEJuSEvMoeMrhddPp6bS6q6NB9HPhI57n6P7A'
+                },
+                success: function(response) {
+                    if (response.success) {
+                        // Remove all alert elements from the DOM
+                        var alertElements = document.querySelectorAll('.notification-card');
+                        alertElements.forEach(function(alertElement) {
+                            if (!alertElement.classList.contains('all-alerts-card')) {
+                                alertElement.parentNode.removeChild(alertElement);
+                            }
+                        });
+                        // Remove the "Clear All" button from the DOM
+                        var clearAllButton = document.getElementById('clear-all-button');
+                        if (clearAllButton) {
+                            clearAllButton.parentNode.removeChild(clearAllButton);
+                        }
+                        console.log('All alerts deleted successfully.');
+
+                    } else {
+                        console.log('Failed to delete all alerts.');
+                    }
+                },
+                error: function() {
+                    console.log('Error deleting all alerts.');
+                }
+            });
+        }
+        </script>
+    
+				<!--banner image-->
+                <div id="banner_img">
+                    
+                        <img onclick="location.reload(true);" class="banner banner-rounded-edges" id="top-header-image" src="https://grundoscafe.b-cdn.net/misc/banners/userlookup.gif">
+                    
+                </div>
+            </div>
+            
+
+			<!--random events will show here-->
+            <div id="page_event">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            
+
+            
+
+			<!--page content-->
+            <div id="page_content">
+                <main>
+                
+                
+                
+                
+
+
+
+  
+
+    
+
+    <!--user lookup starts here-->
+       <div id="userLookupContent">
+           <h2 class="ul--header">
+               <span class="ul--headerlabel">User Lookup</span><span class="ul--username">oops</span>
+                
+                
+                
+           </h2>
+
+           
+           <!-- USER LOOKUP CUSTOMIZATION -->
+           
+               
+               <style type="text/CSS">
+                   /* bye bye */
+#sb_top, #sb_side, #sb_bottom, #page_banner, #page_footer, #aio_sidebar_placeholder, #userLookupCollections strong, .ul--collectionslabel::after, .ul--headerlabel, hr {
+    display: none
+    }
+/* body, text, & basics */
+body {
+    background: #a9c2c5;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000
+    }
+#userLookupLinks, a:link#gamelink {
+    color: #000
+    }
+a, a.visited {
+    color: #000
+    }
+a:hover {
+    color: #1e2f2f
+    }
+strong {
+    color: #000
+    }
+               </style>
+
+               <div id="userLookupDesc">
+                   
+               </div>
+               
+           
+
+           
+
+           <div id="userLookupInfo">
+
+               <!--info text-->
+               <div id="userLookupText">
+                   <div class="ul--name"><span class="ul--infolabel"><strong>Name</strong></span><span class="ul--firstname">Z</span></div>
+                   
+                   <div class="ul--status"><span class="ul--infolabel"><strong>Status</strong></span>Online - Wasting NP</div>
+                   
+                   
+                   <div class="ul--activedate"><span class="ul--infolabel"><strong>Last Spotted</strong></span>Under one day ago</div>
+                   
+                   <div class="ul--gender"><span class="ul--infolabel"><strong>Gender</strong></span><strong class="ul--gendercolor gray">Other</strong></div>
+                   <div class="ul--country"><span class="ul--infolabel"><strong>Country</strong></span>US</div>
+                   <div class="ul--startdate"><span class="ul--infolabel"><strong>Started Playing</strong></span>April 15, 2023</div>
+
+                   
+                   <div class="ul--shop"><span class="ul--infolabel"><strong>Shop</strong></span><a href="/market/browseshop/?owner=oops">Overpriced Corner Store</a> (Size 330)</div>
+                   
+
+                   
+                       
+                       <div class="ul--galleries"><span class="ul--infolabel"><strong>Galleries</strong></span><ul class="galleries--list nomargin"><li><a href="/gallery/view/?username=oops&gallery_id=1591">Miscellanea</a> (Size 85)</li><li><a href="/gallery/view/?username=oops&gallery_id=2501">World Challenge Trading Hub</a> (Size 24)</li><li><a href="/gallery/view/?username=oops&gallery_id=3940">C̴͉̃̚Ḣ̵͉͖̈́̃A̸̢̪͚͛̈̔Ŏ̸̟̯̺̑Ș̵̗̾</a> (Size 4)</li></ul></div>
+                       
+                   
+
+                   
+                   <div class="ul--neodeck"><span class="ul--infolabel"><strong>Neodeck</strong></span><a href="/games/neodeck/album/oops/">Don&#x27;t Be a Deck</a> (244 Cards)</div>
+                   
+
+                   
+                   <div class="ul--bdinfo"><span class="ul--infolabel"><strong>One Player BD</strong></span> Won 15,084 out of 15,103 (99.9%)</div>
+                   
+
+                   
+                   <div class="ul--sitethemes"><span class="ul--infolabel"><strong>Site Themes</strong></span>12</div>
+                   
+
+                   
+                       
+                       <div class="ul--guilds"><span class="ul--infolabel"><strong>Guilds</strong></span><ul class="guilds--list nomargin"><li>Tsuki in <a href="/guilds/guild/2dcc5f1a-080a-43ee-a4c7-18108f047c12/">Tsuki&#x27;s Proteges</a></li><li>Nami in <a href="/guilds/guild/b15eafbe-3918-4f51-b38c-65c7ac44bf54/">Nami&#x27;s Tangerine Orchard</a></li><li>Oops in <a href="/guilds/guild/7fc80013-bd6e-4e27-939c-75d1b721a822/">Whoops</a></li><li>Ace Trainer in <a href="/guilds/guild/806048ad-5cc2-4573-86d4-deeb4c765be9/">The Safari Zone ◓</a></li><li>1337 Restocker in <a href="/guilds/guild/49aee70f-13e5-495b-81ae-e36d7cffe168/">Elite 💎</a></li><li>Starving Artist in <a href="/guilds/guild/7e2c51c9-421f-41c7-b63e-d105db298186/">The Deep Catacombs</a></li><li>trying my best in <a href="/guilds/guild/b756cf39-d6ee-4210-b96e-da41ad7c6b3a/">The Game Controller</a></li><li>Crying Kad in <a href="/guilds/guild/26dd1ae0-910c-4020-b969-3a1767e24a4a/">The Kadoatery</a></li><li>Refreshing in <a href="/guilds/guild/9f066c13-7106-4465-9513-c4bb8de2f773/">Alt Restocking</a></li><li>Neopoint in <a href="/guilds/guild/01b54a24-77c6-4e1f-9b34-e4b29eaf89a8/">Bag of Broken Neopoints</a></li></ul></div>
+                       
+                   
+
+
+
+               </div>
+
+               <!--shield-->
+               <div id="userLookupShield">
+                   <img class="ul--shield" src="https://grundoscafe.b-cdn.net/shields/25mth.gif">
+               </div>
+
+               <!--avatars and stamps-->
+               <div id="userLookupCollections">
+                   <div class="ul__collection ul__avatars">
+                       <a href="/games/avatar_stats/" title="Avatar Stats"><img src="https://grundoscafe.b-cdn.net/boards/avatars/av_naia.gif" class="small-image ul--avatarsimg"></a>
+                       <div class="ul--avatarstext smallfont"><span class="ul--collectionslabel"><strong>Secret Avatars</strong></span>231</div>
+                   </div>
+
+                   <div class="ul__collection ul__stamps">
+                       <a href="/stamps/album/?page_id=0&owner=oops"><img src="https://grundoscafe.b-cdn.net/userlookup/stamps_2x.gif" class="small-image ul--stampsimg"></a>
+                       <div class="ul--stampstext smallfont"><span class="ul--collectionslabel"><strong>Stamps</strong></span>115</div>
+                   </div>
+               </div>
+
+           </div>
+
+           <!--links-->
+           <div id="userLookupLinks">
+
+               
+               <div class="ul__link ul__trades">
+                   <a href="/island/tradingpost/lot/user/oops/"><img src="https://grundoscafe.b-cdn.net/userlookup/trades_2x.png" class="small-image ul--linkimg ul--tradesimg"></a>
+                   <div class="ul--linktext smallfont">Trades</div>
+               </div>
+               
+
+               
+               <div class="ul__link ul__auctions">
+                   <a href="/auctions/genie/?type=find_user&auction_username=oops"><img src="https://grundoscafe.b-cdn.net/userlookup/auctions_2x.png" class="small-image ul--linkimg ul--auctionsimg"></a>
+                   <div class="ul--linktext smallfont">Auctions</div>
+               </div>
+               
+
+               
+               <div class="ul__link ul__wishlist">
+                   <a href="/wishlist/?user=oops"><img src="https://grundoscafe.b-cdn.net/userlookup/wishlist_2x.png" class="small-image ul--linkimg ul--wishlistimg"></a>
+                   <div class="ul--linktext smallfont">Wishlist</div>
+               </div>
+               
+
+               <div class="ul__link ul__scores">
+                   <a href="/games/myscores/oops/"><img src="https://grundoscafe.b-cdn.net/userlookup/scores.png" class="small-image ul--linkimg ul--scoresimg"></a>
+                   <div class="ul--linktext smallfont">Scores (65)</div>
+               </div>
+
+               <div class="ul__link ul__neomail">
+                   <a href="/neomessages/sendmessage/?username=oops"><img src="https://grundoscafe.b-cdn.net/userlookup/neomail.png" class="small-image ul--linkimg ul--neomailimg"></a>
+                   <div class="ul--linktext smallfont">Send Neomail</div>
+               </div>
+
+               
+               <div class="ul__link ul__neofriend">
+                   <form action="/neofriends/send_request/" method="post" class="nomargin">
+                       <input type="hidden" name="csrfmiddlewaretoken" value="vZ47FABXMLJ5nZnaYr7xyYmNvVSzEJuSEvMoeMrhddPp6bS6q6NB9HPhI57n6P7A">
+                       <input type="hidden" class="small-image" name="username" value="oops" alt=oops">
+                       <input type="image" class="small-image ul--linkimg ul--neofriendimg" name="nfimg" value="oops" alt=oops" src="https://grundoscafe.b-cdn.net/userlookup/neofriend.png">
+                   </form>
+                   <div class="ul--linktext smallfont">Make Neofriend</div>
+               </div>
+               
+
+           </div>
+
+       <!--pets-->
+       <div id="userLookupPets">
+
+          
+            
+              
+                <div class="ul--petsheader ul--sectionheader">
+                  <strong>
+                    Neopets
+                  </strong>
+                </div>
+              
+            
+
+        
+        <div id="userPetList" class="userPetList">
+            <div class="petlist__before"></div>
+           
+           <div class="ul__pet ul__Zea">
+               <a href="/petlookup/?pet_name=Zea">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ogrin_baby.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Zea">Zea</a>
+           </div>
+           <div class="pet__after Zea__after"></div>
+           
+           <div class="ul__pet ul__Hyd">
+               <a href="/petlookup/?pet_name=Hyd">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ixi_mutant.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Hyd">Hyd</a>
+           </div>
+           <div class="pet__after Hyd__after"></div>
+           
+           <div class="ul__pet ul__Vexe">
+               <a href="/petlookup/?pet_name=Vexe">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/kyrii_grey.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Vexe">Vexe</a>
+           </div>
+           <div class="pet__after Vexe__after"></div>
+           
+           <div class="ul__pet ul__Faer">
+               <a href="/petlookup/?pet_name=Faer">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/xweetok_faerie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Faer">Faer</a>
+           </div>
+           <div class="pet__after Faer__after"></div>
+           
+           <div class="ul__pet ul__Shye">
+               <a href="/petlookup/?pet_name=Shye">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/shoyru_royalboy.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Shye">Shye</a>
+           </div>
+           <div class="pet__after Shye__after"></div>
+           
+           <div class="ul__pet ul__Jeli">
+               <a href="/petlookup/?pet_name=Jeli">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ixi_jelly.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Jeli">Jeli</a>
+           </div>
+           <div class="pet__after Jeli__after"></div>
+           
+           <div class="ul__pet ul__Parmigiano">
+               <a href="/petlookup/?pet_name=Parmigiano">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/draik_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Parmigiano">Parmigiano</a>
+           </div>
+           <div class="pet__after Parmigiano__after"></div>
+           
+           <div class="ul__pet ul__Prosciutto">
+               <a href="/petlookup/?pet_name=Prosciutto">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/xweetok_split_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Prosciutto">Prosciutto</a>
+           </div>
+           <div class="pet__after Prosciutto__after"></div>
+           
+           <div class="ul__pet ul__Perplex">
+               <a href="/petlookup/?pet_name=Perplex">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/xweetok_alien.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Perplex">Perplex</a>
+           </div>
+           <div class="pet__after Perplex__after"></div>
+           
+           <div class="ul__pet ul__Answer">
+               <a href="/petlookup/?pet_name=Answer">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/aisha_msp.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Answer">Answer</a>
+           </div>
+           <div class="pet__after Answer__after"></div>
+           
+           <div class="ul__pet ul__Wow!">
+               <a href="/petlookup/?pet_name=Wow!">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/xweetok_starry.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Wow!">Wow!</a>
+           </div>
+           <div class="pet__after Wow!__after"></div>
+           
+           <div class="ul__pet ul__Huh?">
+               <a href="/petlookup/?pet_name=Huh?">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/xweetok_invisible.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Huh?">Huh?</a>
+           </div>
+           <div class="pet__after Huh?__after"></div>
+           
+           <div class="ul__pet ul__Hmm">
+               <a href="/petlookup/?pet_name=Hmm">
+                   
+                       
+                       <img src="https://grundoscafe.b-cdn.net/pets/sad/jubjub_alien_classic1.gif" class="med-image ul--petimg">
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Hmm">Hmm</a>
+           </div>
+           <div class="pet__after Hmm__after"></div>
+           
+           <div class="ul__pet ul__Meh">
+               <a href="/petlookup/?pet_name=Meh">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_grey.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Meh">Meh</a>
+           </div>
+           <div class="pet__after Meh__after"></div>
+           
+           <div class="ul__pet ul__Psh">
+               <a href="/petlookup/?pet_name=Psh">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_edgy.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Psh">Psh</a>
+           </div>
+           <div class="pet__after Psh__after"></div>
+           
+           <div class="ul__pet ul__Tsk">
+               <a href="/petlookup/?pet_name=Tsk">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/bori_edgy_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Tsk">Tsk</a>
+           </div>
+           <div class="pet__after Tsk__after"></div>
+           
+           <div class="ul__pet ul__Err">
+               <a href="/petlookup/?pet_name=Err">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_shadow_alt2.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Err">Err</a>
+           </div>
+           <div class="pet__after Err__after"></div>
+           
+           <div class="ul__pet ul__Shh">
+               <a href="/petlookup/?pet_name=Shh">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/kyrii_rainbow_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Shh">Shh</a>
+           </div>
+           <div class="pet__after Shh__after"></div>
+           
+           <div class="ul__pet ul__Mhm">
+               <a href="/petlookup/?pet_name=Mhm">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/kacheek_jelly.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Mhm">Mhm</a>
+           </div>
+           <div class="pet__after Mhm__after"></div>
+           
+           <div class="ul__pet ul__Yup">
+               <a href="/petlookup/?pet_name=Yup">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/aisha_alien.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Yup">Yup</a>
+           </div>
+           <div class="pet__after Yup__after"></div>
+           
+           <div class="ul__pet ul__Nth">
+               <a href="/petlookup/?pet_name=Nth">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_alien.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Nth">Nth</a>
+           </div>
+           <div class="pet__after Nth__after"></div>
+           
+           <div class="ul__pet ul__Roll">
+               <a href="/petlookup/?pet_name=Roll">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_green_classic1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Roll">Roll</a>
+           </div>
+           <div class="pet__after Roll__after"></div>
+           
+           <div class="ul__pet ul__Bulbous">
+               <a href="/petlookup/?pet_name=Bulbous">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_garlic.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Bulbous">Bulbous</a>
+           </div>
+           <div class="pet__after Bulbous__after"></div>
+           
+           <div class="ul__pet ul__Rotund">
+               <a href="/petlookup/?pet_name=Rotund">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_coconut.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Rotund">Rotund</a>
+           </div>
+           <div class="pet__after Rotund__after"></div>
+           
+           <div class="ul__pet ul__Zingy">
+               <a href="/petlookup/?pet_name=Zingy">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_island.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Zingy">Zingy</a>
+           </div>
+           <div class="pet__after Zingy__after"></div>
+           
+           <div class="ul__pet ul__Kaput">
+               <a href="/petlookup/?pet_name=Kaput">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_pirate.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Kaput">Kaput</a>
+           </div>
+           <div class="pet__after Kaput__after"></div>
+           
+           <div class="ul__pet ul__Purps">
+               <a href="/petlookup/?pet_name=Purps">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/meerca_botanical_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Purps">Purps</a>
+           </div>
+           <div class="pet__after Purps__after"></div>
+           
+           <div class="ul__pet ul__Devilʹs Lettuce">
+               <a href="/petlookup/?pet_name=Devilʹs Lettuce">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/meerca_botanical.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Devilʹs Lettuce">Devilʹs Lettuce</a>
+           </div>
+           <div class="pet__after Devilʹs Lettuce__after"></div>
+           
+           <div class="ul__pet ul__Puffer?">
+               <a href="/petlookup/?pet_name=Puffer?">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/meerca_maraquan.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Puffer?">Puffer?</a>
+           </div>
+           <div class="pet__after Puffer?__after"></div>
+           
+           <div class="ul__pet ul__Chives">
+               <a href="/petlookup/?pet_name=Chives">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_apple_alt3.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Chives">Chives</a>
+           </div>
+           <div class="pet__after Chives__after"></div>
+           
+           <div class="ul__pet ul__Marmalad">
+               <a href="/petlookup/?pet_name=Marmalad">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_orange.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Marmalad">Marmalad</a>
+           </div>
+           <div class="pet__after Marmalad__after"></div>
+           
+           <div class="ul__pet ul__Antioxidant">
+               <a href="/petlookup/?pet_name=Antioxidant">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_blueberry_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Antioxidant">Antioxidant</a>
+           </div>
+           <div class="pet__after Antioxidant__after"></div>
+           
+           <div class="ul__pet ul__Gourde">
+               <a href="/petlookup/?pet_name=Gourde">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_halloween.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Gourde">Gourde</a>
+           </div>
+           <div class="pet__after Gourde__after"></div>
+           
+           <div class="ul__pet ul__Sudden Death Mode">
+               <a href="/petlookup/?pet_name=Sudden Death Mode">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_ghost_classic1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Sudden Death Mode">Sudden Death Mode</a>
+           </div>
+           <div class="pet__after Sudden Death Mode__after"></div>
+           
+           <div class="ul__pet ul__Lavalings">
+               <a href="/petlookup/?pet_name=Lavalings">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_fire.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Lavalings">Lavalings</a>
+           </div>
+           <div class="pet__after Lavalings__after"></div>
+           
+           <div class="ul__pet ul__Flim Flam Flummoxed">
+               <a href="/petlookup/?pet_name=Flim Flam Flummoxed">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_valentine.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Flim Flam Flummoxed">Flim Flam Flummoxed</a>
+           </div>
+           <div class="pet__after Flim Flam Flummoxed__after"></div>
+           
+           <div class="ul__pet ul__Flin Flan Flunnoxed">
+               <a href="/petlookup/?pet_name=Flin Flan Flunnoxed">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_custard_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Flin Flan Flunnoxed">Flin Flan Flunnoxed</a>
+           </div>
+           <div class="pet__after Flin Flan Flunnoxed__after"></div>
+           
+           <div class="ul__pet ul__Schmuck">
+               <a href="/petlookup/?pet_name=Schmuck">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/scorchio_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Schmuck">Schmuck</a>
+           </div>
+           <div class="pet__after Schmuck__after"></div>
+           
+           <div class="ul__pet ul__Schlub">
+               <a href="/petlookup/?pet_name=Schlub">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/poogle_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Schlub">Schlub</a>
+           </div>
+           <div class="pet__after Schlub__after"></div>
+           
+           <div class="ul__pet ul__Schlep">
+               <a href="/petlookup/?pet_name=Schlep">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Schlep">Schlep</a>
+           </div>
+           <div class="pet__after Schlep__after"></div>
+           
+           <div class="ul__pet ul__Shlump">
+               <a href="/petlookup/?pet_name=Shlump">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/krawk_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Shlump">Shlump</a>
+           </div>
+           <div class="pet__after Shlump__after"></div>
+           
+           <div class="ul__pet ul__Schwing">
+               <a href="/petlookup/?pet_name=Schwing">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/grundo_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Schwing">Schwing</a>
+           </div>
+           <div class="pet__after Schwing__after"></div>
+           
+           <div class="ul__pet ul__Shlither">
+               <a href="/petlookup/?pet_name=Shlither">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/hissi_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Shlither">Shlither</a>
+           </div>
+           <div class="pet__after Shlither__after"></div>
+           
+           <div class="ul__pet ul__Sack">
+               <a href="/petlookup/?pet_name=Sack">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Sack">Sack</a>
+           </div>
+           <div class="pet__after Sack__after"></div>
+           
+           <div class="ul__pet ul__Hunch">
+               <a href="/petlookup/?pet_name=Hunch">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/bori_mutant.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Hunch">Hunch</a>
+           </div>
+           <div class="pet__after Hunch__after"></div>
+           
+           <div class="ul__pet ul__Stoked">
+               <a href="/petlookup/?pet_name=Stoked">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/quiggle_maraquan.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Stoked">Stoked</a>
+           </div>
+           <div class="pet__after Stoked__after"></div>
+           
+           <div class="ul__pet ul__Whew">
+               <a href="/petlookup/?pet_name=Whew">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/aisha_baby.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Whew">Whew</a>
+           </div>
+           <div class="pet__after Whew__after"></div>
+           
+           <div class="ul__pet ul__Whoops">
+               <a href="/petlookup/?pet_name=Whoops">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_clay.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Whoops">Whoops</a>
+           </div>
+           <div class="pet__after Whoops__after"></div>
+           
+           <div class="ul__pet ul__Glass House">
+               <a href="/petlookup/?pet_name=Glass House">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_stone.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Glass House">Glass House</a>
+           </div>
+           <div class="pet__after Glass House__after"></div>
+           
+           <div class="ul__pet ul__20mg">
+               <a href="/petlookup/?pet_name=20mg">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/uni_jelly.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=20mg">20mg</a>
+           </div>
+           <div class="pet__after 20mg__after"></div>
+           
+           <div class="ul__pet ul__Dazed">
+               <a href="/petlookup/?pet_name=Dazed">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ogrin_sketch_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Dazed">Dazed</a>
+           </div>
+           <div class="pet__after Dazed__after"></div>
+           
+           <div class="ul__pet ul__Technicolor">
+               <a href="/petlookup/?pet_name=Technicolor">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/quiggle_rainbow_classic1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Technicolor">Technicolor</a>
+           </div>
+           <div class="pet__after Technicolor__after"></div>
+           
+           <div class="ul__pet ul__Gaytor">
+               <a href="/petlookup/?pet_name=Gaytor">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/krawk_rainbow_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Gaytor">Gaytor</a>
+           </div>
+           <div class="pet__after Gaytor__after"></div>
+           
+           <div class="ul__pet ul__Beelzebuzz">
+               <a href="/petlookup/?pet_name=Beelzebuzz">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/buzz_rainbow_classic1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Beelzebuzz">Beelzebuzz</a>
+           </div>
+           <div class="pet__after Beelzebuzz__after"></div>
+           
+           <div class="ul__pet ul__Eyeberry">
+               <a href="/petlookup/?pet_name=Eyeberry">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/buzz_red_classic1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Eyeberry">Eyeberry</a>
+           </div>
+           <div class="pet__after Eyeberry__after"></div>
+           
+           <div class="ul__pet ul__BITINGYOUBITINGYOUBI">
+               <a href="/petlookup/?pet_name=BITINGYOUBITINGYOUBI">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/grarrl_sketch_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=BITINGYOUBITINGYOUBI">BITINGYOUBITINGYOUBI</a>
+           </div>
+           <div class="pet__after BITINGYOUBITINGYOUBI__after"></div>
+           
+           <div class="ul__pet ul__Piffle">
+               <a href="/petlookup/?pet_name=Piffle">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_faerie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Piffle">Piffle</a>
+           </div>
+           <div class="pet__after Piffle__after"></div>
+           
+           <div class="ul__pet ul__Nightcap">
+               <a href="/petlookup/?pet_name=Nightcap">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_botanical.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Nightcap">Nightcap</a>
+           </div>
+           <div class="pet__after Nightcap__after"></div>
+           
+           <div class="ul__pet ul__Corm">
+               <a href="/petlookup/?pet_name=Corm">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_corn_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Corm">Corm</a>
+           </div>
+           <div class="pet__after Corm__after"></div>
+           
+           <div class="ul__pet ul__Coinflip">
+               <a href="/petlookup/?pet_name=Coinflip">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/zafara_jelly.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Coinflip">Coinflip</a>
+           </div>
+           <div class="pet__after Coinflip__after"></div>
+           
+           <div class="ul__pet ul__Whoosh">
+               <a href="/petlookup/?pet_name=Whoosh">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/kyrii_starry_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Whoosh">Whoosh</a>
+           </div>
+           <div class="pet__after Whoosh__after"></div>
+           
+           <div class="ul__pet ul__Distort">
+               <a href="/petlookup/?pet_name=Distort">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/shoyru_checkered.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Distort">Distort</a>
+           </div>
+           <div class="pet__after Distort__after"></div>
+           
+           <div class="ul__pet ul__Skew">
+               <a href="/petlookup/?pet_name=Skew">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ixi_checkered.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Skew">Skew</a>
+           </div>
+           <div class="pet__after Skew__after"></div>
+           
+           <div class="ul__pet ul__Campy">
+               <a href="/petlookup/?pet_name=Campy">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/quiggle_quigukiboy.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Campy">Campy</a>
+           </div>
+           <div class="pet__after Campy__after"></div>
+           
+           <div class="ul__pet ul__Grandeur">
+               <a href="/petlookup/?pet_name=Grandeur">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ixi_purple_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Grandeur">Grandeur</a>
+           </div>
+           <div class="pet__after Grandeur__after"></div>
+           
+           <div class="ul__pet ul__Venusian">
+               <a href="/petlookup/?pet_name=Venusian">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ixi_valentine.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Venusian">Venusian</a>
+           </div>
+           <div class="pet__after Venusian__after"></div>
+           
+           <div class="ul__pet ul__Auspicious">
+               <a href="/petlookup/?pet_name=Auspicious">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/shoyru_valentine.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Auspicious">Auspicious</a>
+           </div>
+           <div class="pet__after Auspicious__after"></div>
+           
+           <div class="ul__pet ul__Sinistrous">
+               <a href="/petlookup/?pet_name=Sinistrous">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/shoyru_halloween.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Sinistrous">Sinistrous</a>
+           </div>
+           <div class="pet__after Sinistrous__after"></div>
+           
+           <div class="ul__pet ul__Avaricious">
+               <a href="/petlookup/?pet_name=Avaricious">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/bori_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Avaricious">Avaricious</a>
+           </div>
+           <div class="pet__after Avaricious__after"></div>
+           
+           <div class="ul__pet ul__Audacious">
+               <a href="/petlookup/?pet_name=Audacious">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ogrin_faerie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Audacious">Audacious</a>
+           </div>
+           <div class="pet__after Audacious__after"></div>
+           
+           <div class="ul__pet ul__Tremendous">
+               <a href="/petlookup/?pet_name=Tremendous">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ogrin_chocolate.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Tremendous">Tremendous</a>
+           </div>
+           <div class="pet__after Tremendous__after"></div>
+           
+           <div class="ul__pet ul__Impetuous">
+               <a href="/petlookup/?pet_name=Impetuous">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ogrin_darigan.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Impetuous">Impetuous</a>
+           </div>
+           <div class="pet__after Impetuous__after"></div>
+           
+           <div class="ul__pet ul__Retort">
+               <a href="/petlookup/?pet_name=Retort">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/gnorbu_darigan.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Retort">Retort</a>
+           </div>
+           <div class="pet__after Retort__after"></div>
+           
+           <div class="ul__pet ul__Artillerist">
+               <a href="/petlookup/?pet_name=Artillerist">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/xweetok_pirate.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Artillerist">Artillerist</a>
+           </div>
+           <div class="pet__after Artillerist__after"></div>
+           
+           <div class="ul__pet ul__Mouthfeel">
+               <a href="/petlookup/?pet_name=Mouthfeel">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/grundo_mallow.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Mouthfeel">Mouthfeel</a>
+           </div>
+           <div class="pet__after Mouthfeel__after"></div>
+           
+           <div class="ul__pet ul__Layer">
+               <a href="/petlookup/?pet_name=Layer">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/draik_birthday.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Layer">Layer</a>
+           </div>
+           <div class="pet__after Layer__after"></div>
+           
+           <div class="ul__pet ul__Brewer">
+               <a href="/petlookup/?pet_name=Brewer">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/acara_grey.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Brewer">Brewer</a>
+           </div>
+           <div class="pet__after Brewer__after"></div>
+           
+           <div class="ul__pet ul__Macerate">
+               <a href="/petlookup/?pet_name=Macerate">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_strawberry_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Macerate">Macerate</a>
+           </div>
+           <div class="pet__after Macerate__after"></div>
+           
+           <div class="ul__pet ul__Irresponsibility">
+               <a href="/petlookup/?pet_name=Irresponsibility">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/grarrl_nugget.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Irresponsibility">Irresponsibility</a>
+           </div>
+           <div class="pet__after Irresponsibility__after"></div>
+           
+           <div class="ul__pet ul__Flippant">
+               <a href="/petlookup/?pet_name=Flippant">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/defended/chia_nugget.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Flippant">Flippant</a>
+           </div>
+           <div class="pet__after Flippant__after"></div>
+           
+           <div class="ul__pet ul__Fickle">
+               <a href="/petlookup/?pet_name=Fickle">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_clay.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Fickle">Fickle</a>
+           </div>
+           <div class="pet__after Fickle__after"></div>
+           
+           <div class="ul__pet ul__Peevish">
+               <a href="/petlookup/?pet_name=Peevish">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_pea.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Peevish">Peevish</a>
+           </div>
+           <div class="pet__after Peevish__after"></div>
+           
+           <div class="ul__pet ul__Bullheaded">
+               <a href="/petlookup/?pet_name=Bullheaded">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/kau_brown_alt2.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Bullheaded">Bullheaded</a>
+           </div>
+           <div class="pet__after Bullheaded__after"></div>
+           
+           <div class="ul__pet ul__Indecisive">
+               <a href="/petlookup/?pet_name=Indecisive">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/wocky_invisible.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Indecisive">Indecisive</a>
+           </div>
+           <div class="pet__after Indecisive__after"></div>
+           
+           <div class="ul__pet ul__Gamble">
+               <a href="/petlookup/?pet_name=Gamble">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/kyrii_disco.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Gamble">Gamble</a>
+           </div>
+           <div class="pet__after Gamble__after"></div>
+           
+           <div class="ul__pet ul__Grifter">
+               <a href="/petlookup/?pet_name=Grifter">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/yurble_halloween_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Grifter">Grifter</a>
+           </div>
+           <div class="pet__after Grifter__after"></div>
+           
+           <div class="ul__pet ul__Discounted">
+               <a href="/petlookup/?pet_name=Discounted">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_halloween_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Discounted">Discounted</a>
+           </div>
+           <div class="pet__after Discounted__after"></div>
+           
+           <div class="ul__pet ul__Offputting">
+               <a href="/petlookup/?pet_name=Offputting">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_mutant.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Offputting">Offputting</a>
+           </div>
+           <div class="pet__after Offputting__after"></div>
+           
+           <div class="ul__pet ul__Fretful">
+               <a href="/petlookup/?pet_name=Fretful">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_snow.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Fretful">Fretful</a>
+           </div>
+           <div class="pet__after Fretful__after"></div>
+           
+           <div class="ul__pet ul__Scald">
+               <a href="/petlookup/?pet_name=Scald">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/shoyru_fire_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Scald">Scald</a>
+           </div>
+           <div class="pet__after Scald__after"></div>
+           
+           <div class="ul__pet ul__Scour">
+               <a href="/petlookup/?pet_name=Scour">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/aisha_sponge.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Scour">Scour</a>
+           </div>
+           <div class="pet__after Scour__after"></div>
+           
+           <div class="ul__pet ul__Effervesce">
+               <a href="/petlookup/?pet_name=Effervesce">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/peophin_sponge.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Effervesce">Effervesce</a>
+           </div>
+           <div class="pet__after Effervesce__after"></div>
+           
+           <div class="ul__pet ul__Swabber">
+               <a href="/petlookup/?pet_name=Swabber">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/blumaroo_sponge.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Swabber">Swabber</a>
+           </div>
+           <div class="pet__after Swabber__after"></div>
+           
+           <div class="ul__pet ul__Quills">
+               <a href="/petlookup/?pet_name=Quills">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/yurble_baby.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Quills">Quills</a>
+           </div>
+           <div class="pet__after Quills__after"></div>
+           
+           <div class="ul__pet ul__Succulence">
+               <a href="/petlookup/?pet_name=Succulence">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_snowberry.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Succulence">Succulence</a>
+           </div>
+           <div class="pet__after Succulence__after"></div>
+           
+           <div class="ul__pet ul__Subtext">
+               <a href="/petlookup/?pet_name=Subtext">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/bori_clay.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Subtext">Subtext</a>
+           </div>
+           <div class="pet__after Subtext__after"></div>
+           
+           <div class="ul__pet ul__Repertoire">
+               <a href="/petlookup/?pet_name=Repertoire">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/lutari_alien.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Repertoire">Repertoire</a>
+           </div>
+           <div class="pet__after Repertoire__after"></div>
+           
+           <div class="ul__pet ul__Pique">
+               <a href="/petlookup/?pet_name=Pique">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/bori_alien.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Pique">Pique</a>
+           </div>
+           <div class="pet__after Pique__after"></div>
+           
+           <div class="ul__pet ul__Simping">
+               <a href="/petlookup/?pet_name=Simping">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/tuskaninny_valentine.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Simping">Simping</a>
+           </div>
+           <div class="pet__after Simping__after"></div>
+           
+           <div class="ul__pet ul__Egomania">
+               <a href="/petlookup/?pet_name=Egomania">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/aisha_valentine.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Egomania">Egomania</a>
+           </div>
+           <div class="pet__after Egomania__after"></div>
+           
+           <div class="ul__pet ul__Gist">
+               <a href="/petlookup/?pet_name=Gist">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/lutari_plushie_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Gist">Gist</a>
+           </div>
+           <div class="pet__after Gist__after"></div>
+           
+           <div class="ul__pet ul__Aside">
+               <a href="/petlookup/?pet_name=Aside">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ogrin_plushie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Aside">Aside</a>
+           </div>
+           <div class="pet__after Aside__after"></div>
+           
+           <div class="ul__pet ul__Misalign">
+               <a href="/petlookup/?pet_name=Misalign">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ogrin_plushie_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Misalign">Misalign</a>
+           </div>
+           <div class="pet__after Misalign__after"></div>
+           
+           <div class="ul__pet ul__Misprint">
+               <a href="/petlookup/?pet_name=Misprint">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/zafara_blue_classic1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Misprint">Misprint</a>
+           </div>
+           <div class="pet__after Misprint__after"></div>
+           
+           <div class="ul__pet ul__pixelize">
+               <a href="/petlookup/?pet_name=pixelize">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/xweetok_8-bit.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=pixelize">pixelize</a>
+           </div>
+           <div class="pet__after pixelize__after"></div>
+           
+           <div class="ul__pet ul__Paroxysmal">
+               <a href="/petlookup/?pet_name=Paroxysmal">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/rangedattack/lupe_robot.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Paroxysmal">Paroxysmal</a>
+           </div>
+           <div class="pet__after Paroxysmal__after"></div>
+           
+           <div class="ul__pet ul__Inspect">
+               <a href="/petlookup/?pet_name=Inspect">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/blumaroo_robot.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Inspect">Inspect</a>
+           </div>
+           <div class="pet__after Inspect__after"></div>
+           
+           <div class="ul__pet ul__Sitewide">
+               <a href="/petlookup/?pet_name=Sitewide">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/bori_robot.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Sitewide">Sitewide</a>
+           </div>
+           <div class="pet__after Sitewide__after"></div>
+           
+           <div class="ul__pet ul__Girafarig">
+               <a href="/petlookup/?pet_name=Girafarig">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/ogrin_yellow.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Girafarig">Girafarig</a>
+           </div>
+           <div class="pet__after Girafarig__after"></div>
+           
+           <div class="ul__pet ul__Snorunt">
+               <a href="/petlookup/?pet_name=Snorunt">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_ice.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Snorunt">Snorunt</a>
+           </div>
+           <div class="pet__after Snorunt__after"></div>
+           
+           <div class="ul__pet ul__Budew">
+               <a href="/petlookup/?pet_name=Budew">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_valentine.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Budew">Budew</a>
+           </div>
+           <div class="pet__after Budew__after"></div>
+           
+           <div class="ul__pet ul__Morelull">
+               <a href="/petlookup/?pet_name=Morelull">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/chia_chokato.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Morelull">Morelull</a>
+           </div>
+           <div class="pet__after Morelull__after"></div>
+           
+           <div class="ul__pet ul__Xoro">
+               <a href="/petlookup/?pet_name=Xoro">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/kyrii_pirate.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Xoro">Xoro</a>
+           </div>
+           <div class="pet__after Xoro__after"></div>
+           
+           <div class="ul__pet ul__Koby">
+               <a href="/petlookup/?pet_name=Koby">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/kacheek_alien_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Koby">Koby</a>
+           </div>
+           <div class="pet__after Koby__after"></div>
+           
+           <div class="ul__pet ul__Chef Zeff">
+               <a href="/petlookup/?pet_name=Chef Zeff">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/rangedattack/lupe_pirate.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Chef Zeff">Chef Zeff</a>
+           </div>
+           <div class="pet__after Chef Zeff__after"></div>
+           
+           <div class="ul__pet ul__Doflamingo">
+               <a href="/petlookup/?pet_name=Doflamingo">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/lenny_pink.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Doflamingo">Doflamingo</a>
+           </div>
+           <div class="pet__after Doflamingo__after"></div>
+           
+           <div class="ul__pet ul__Kizaru">
+               <a href="/petlookup/?pet_name=Kizaru">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/draik_gold_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Kizaru">Kizaru</a>
+           </div>
+           <div class="pet__after Kizaru__after"></div>
+           
+           <div class="ul__pet ul__Batchee">
+               <a href="/petlookup/?pet_name=Batchee">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/buzz_baby.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Batchee">Batchee</a>
+           </div>
+           <div class="pet__after Batchee__after"></div>
+           
+           <div class="ul__pet ul__Yumeko">
+               <a href="/petlookup/?pet_name=Yumeko">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/xweetok_chocolate.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Yumeko">Yumeko</a>
+           </div>
+           <div class="pet__after Yumeko__after"></div>
+           
+           <div class="ul__pet ul__Saionji">
+               <a href="/petlookup/?pet_name=Saionji">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/kyrii_green.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Saionji">Saionji</a>
+           </div>
+           <div class="pet__after Saionji__after"></div>
+           
+           <div class="ul__pet ul__Suguru">
+               <a href="/petlookup/?pet_name=Suguru">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/hissi_grey.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Suguru">Suguru</a>
+           </div>
+           <div class="pet__after Suguru__after"></div>
+           
+           <div class="ul__pet ul__Fгieгen">
+               <a href="/petlookup/?pet_name=Fгieгen">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/xweetok_white.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Fгieгen">Fгieгen</a>
+           </div>
+           <div class="pet__after Fгieгen__after"></div>
+           
+           <div class="ul__pet ul__Übel">
+               <a href="/petlookup/?pet_name=Übel">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/acara_shadow.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Übel">Übel</a>
+           </div>
+           <div class="pet__after Übel__after"></div>
+           
+           <div class="ul__pet ul__Myo">
+               <a href="/petlookup/?pet_name=Myo">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/draik_faerie.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Myo">Myo</a>
+           </div>
+           <div class="pet__after Myo__after"></div>
+           
+           <div class="ul__pet ul__Kudo">
+               <a href="/petlookup/?pet_name=Kudo">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/draik_maraquan.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Kudo">Kudo</a>
+           </div>
+           <div class="pet__after Kudo__after"></div>
+           
+           <div class="ul__pet ul__The Goddess">
+               <a href="/petlookup/?pet_name=The Goddess">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/usul_gold.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=The Goddess">The Goddess</a>
+           </div>
+           <div class="pet__after The Goddess__after"></div>
+           
+           <div class="ul__pet ul__Makoto Misumi">
+               <a href="/petlookup/?pet_name=Makoto Misumi">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/rangedattack/lupe_mutant_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Makoto Misumi">Makoto Misumi</a>
+           </div>
+           <div class="pet__after Makoto Misumi__after"></div>
+           
+           <div class="ul__pet ul__Pawa">
+               <a href="/petlookup/?pet_name=Pawa">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/lutari_darigan_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Pawa">Pawa</a>
+           </div>
+           <div class="pet__after Pawa__after"></div>
+           
+           <div class="ul__pet ul__Xiaomao">
+               <a href="/petlookup/?pet_name=Xiaomao">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/wocky_alien_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Xiaomao">Xiaomao</a>
+           </div>
+           <div class="pet__after Xiaomao__after"></div>
+           
+           <div class="ul__pet ul__Yukiya">
+               <a href="/petlookup/?pet_name=Yukiya">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/pteri_shadow.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Yukiya">Yukiya</a>
+           </div>
+           <div class="pet__after Yukiya__after"></div>
+           
+           <div class="ul__pet ul__Diogenes">
+               <a href="/petlookup/?pet_name=Diogenes">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/gelert_mutant.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Diogenes">Diogenes</a>
+           </div>
+           <div class="pet__after Diogenes__after"></div>
+           
+           <div class="ul__pet ul__sdgf">
+               <a href="/petlookup/?pet_name=sdgf">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/bori_custard.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=sdgf">sdgf</a>
+           </div>
+           <div class="pet__after sdgf__after"></div>
+           
+           <div class="ul__pet ul__Wearisome">
+               <a href="/petlookup/?pet_name=Wearisome">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/draik_grey.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Wearisome">Wearisome</a>
+           </div>
+           <div class="pet__after Wearisome__after"></div>
+           
+           <div class="ul__pet ul__Maraud">
+               <a href="/petlookup/?pet_name=Maraud">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/wocky_red.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Maraud">Maraud</a>
+           </div>
+           <div class="pet__after Maraud__after"></div>
+           
+           <div class="ul__pet ul__Spurious">
+               <a href="/petlookup/?pet_name=Spurious">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/korbat_halloween.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Spurious">Spurious</a>
+           </div>
+           <div class="pet__after Spurious__after"></div>
+           
+           <div class="ul__pet ul__Meddlesome">
+               <a href="/petlookup/?pet_name=Meddlesome">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/jubjub_darigan.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Meddlesome">Meddlesome</a>
+           </div>
+           <div class="pet__after Meddlesome__after"></div>
+           
+           <div class="ul__pet ul__Unadorned">
+               <a href="/petlookup/?pet_name=Unadorned">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/shoyru_white_alt1.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Unadorned">Unadorned</a>
+           </div>
+           <div class="pet__after Unadorned__after"></div>
+           
+           <div class="ul__pet ul__Schtick">
+               <a href="/petlookup/?pet_name=Schtick">
+                   
+                       
+                           
+                           <img src="https://grundoscafe.b-cdn.net/pets/happy/pteri_darigan.gif" class="med-image ul--petimg">
+                           
+                       
+                   
+               </a>
+               <a class="ul--petname" href="/petlookup/?pet_name=Schtick">Schtick</a>
+           </div>
+           <div class="pet__after Schtick__after"></div>
+           
+       </div>
+        
+        </div>
+           
+           <hr>
+           <!--site event trophies-->
+           <div id="userLookupSiteTrophies">
+
+               <div class="ul--sitetrophiesheader ul--sectionheader"><strong>Site Trophies</strong></div>
+
+               <div id="siteTrophiesList">
+                   
+                   <div class="ul__sitetrophy ul__">
+                       <a href="/space/warehouse/relics/?user=oops">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/relictrophy_4.gif" class="med-image ul--sitetrophyimg">
+                       </a>
+                       <strong class="ul--sitetrophyname">Honorary Grundo Researcher</strong>
+                   </div>
+                   
+                   
+                   <div class="ul__sitetrophy ul__kad_level_3">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/kad_level_3.gif" class="med-image ul--sitetrophyimg">
+                       <strong class="ul--sitetrophyname"><a class="gamelink" href="/games/kadoatery/">Kadoatery</a></strong>
+                       
+                       <strong class="ul--sitetrophycap">(622 fed)</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__sitetrophy ul__hh2023_1">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/hh2023_1.gif" class="med-image ul--sitetrophyimg">
+                       <strong class="ul--sitetrophyname">Haunted House 2023 Detective</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__sitetrophy ul__don15">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/don15.gif" class="med-image ul--sitetrophyimg">
+                       <strong class="ul--sitetrophyname">Defender of Neopia</strong>
+                       
+                       <strong class="ul--sitetrophycap">(Mission 15)</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__sitetrophy ul__ribbon_Boris">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/ribbon_Boris.gif" class="med-image ul--sitetrophyimg">
+                       <strong class="ul--sitetrophyname">Snowball Fight 2023 - Team Boris</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__sitetrophy ul__sf_boris_1">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/sf_boris_1.gif" class="med-image ul--sitetrophyimg">
+                       <strong class="ul--sitetrophyname">Snowball Fight 2023<br>(60000 points)</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__sitetrophy ul__volcano_trophy_1">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/volcano_trophy_1.gif" class="med-image ul--sitetrophyimg">
+                       <strong class="ul--sitetrophyname">Seismic Vanguard (48200 points)</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__sitetrophy ul__hh2024_1">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/hh2024_1.gif" class="med-image ul--sitetrophyimg">
+                       <strong class="ul--sitetrophyname">Haunted House 2024 Detective</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__sitetrophy ul__ribbon_Gargarox">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/ribbon_Gargarox.gif" class="med-image ul--sitetrophyimg">
+                       <strong class="ul--sitetrophyname">Snowball Fight 2024 - Team Gargarox</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__sitetrophy ul__sf_gargarox_1">
+                       <img src="https://grundoscafe.b-cdn.net/games/trophies/sf_gargarox_1.gif" class="med-image ul--sitetrophyimg">
+                       <strong class="ul--sitetrophyname">Snowball Fight 2024 - Top Performer!<br>(47500 points)</strong>
+                       
+                   </div>
+                   
+               </div>
+
+           </div>
+           
+
+           
+           <hr>
+           <!--game trophies-->
+           <div id="userLookupGameTrophies">
+
+               <div class="ul--gametrophiesheader ul--sectionheader"><strong>Game Trophies</strong></div>
+
+               <div id="gameTrophiesList">
+                   
+                   <div class="ul__gametrophy ul__game16">
+                       
+                       <a href="/games/sakhmet_solitaire/"><img src="https://grundoscafe.b-cdn.net/games/trophies/16_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Sakhmet Solitaire
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game17">
+                       
+                       <a href="/halloween/braintree/"><img src="https://grundoscafe.b-cdn.net/games/trophies/17_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Brain Tree
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game25">
+                       
+                       <a href="/games/highscores/?game_id=25"> <img src="https://grundoscafe.b-cdn.net/games/trophies/25_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Sloth&#x27;s Invasion Tax!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game5">
+                       
+                       <a href="/games/highscores/?game_id=5"> <img src="https://grundoscafe.b-cdn.net/games/trophies/5_3.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Third Place at Tyranu Evavu!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game41">
+                       
+                       <a href="/art/poetry/"><img src="https://grundoscafe.b-cdn.net/games/trophies/41_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Poetry Contest
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           
+                               11×
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game47">
+                       
+                       <a href="/games/highscores/?game_id=47"> <img src="https://grundoscafe.b-cdn.net/games/trophies/47_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Grumpy Old King!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game38">
+                       
+                       <a href="/games/highscores/?game_id=38"> <img src="https://grundoscafe.b-cdn.net/games/trophies/38_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Snow Beast Appropriation!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game28">
+                       
+                       <a href="/games/highscores/?game_id=28"> <img src="https://grundoscafe.b-cdn.net/games/trophies/28_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Gormball
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game35">
+                       
+                       <a href="/games/highscores/?game_id=35"> <img src="https://grundoscafe.b-cdn.net/games/trophies/35_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Ultimate Bullseye
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game45">
+                       
+                       <a href="/games/highscores/?game_id=45"> <img src="https://grundoscafe.b-cdn.net/games/trophies/45_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Mystery Pic
+                           
+                               
+                           
+                               
+                                   2×
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game27">
+                       
+                       <a href="/games/highscores/?game_id=27"> <img src="https://grundoscafe.b-cdn.net/games/trophies/27_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Faerie Cloud Racers!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game20">
+                       
+                       <a href="/games/highscores/?game_id=20"> <img src="https://grundoscafe.b-cdn.net/games/trophies/20_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Neopian Lottery
+                           
+                               
+                                   2×
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game60">
+                       
+                       <a href="/desert/fruitmachine/"><img src="https://grundoscafe.b-cdn.net/games/trophies/60_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Fruit Machine
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game39">
+                       
+                       <a href="/games/highscores/?game_id=39"> <img src="https://grundoscafe.b-cdn.net/games/trophies/39_3.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Third Place at Sutek&#x27;s Tomb!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game8">
+                       
+                       <a href="/games/highscores/?game_id=8"> <img src="https://grundoscafe.b-cdn.net/games/trophies/8_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Alien Aisha Vending Machine
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game32">
+                       
+                       <a href="/games/highscores/?game_id=32"> <img src="https://grundoscafe.b-cdn.net/games/trophies/32_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Cheeseroller
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game21">
+                       
+                       <a href="/games/highscores/?game_id=21"> <img src="https://grundoscafe.b-cdn.net/games/trophies/21_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Lenny Conundrum!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game66">
+                       
+                       <a href="/games/highscores/?game_id=66"> <img src="https://grundoscafe.b-cdn.net/games/trophies/66_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Better Than You
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game24">
+                       
+                       <a href="/games/highscores/?game_id=24"> <img src="https://grundoscafe.b-cdn.net/games/trophies/24_3.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Third Place at Angry Tax Beast!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game23">
+                       
+                       <a href="/games/highscores/?game_id=23"> <img src="https://grundoscafe.b-cdn.net/games/trophies/23_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Tax Beast!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game72">
+                       
+                       <a href="/games/highscores/?game_id=72"> <img src="https://grundoscafe.b-cdn.net/games/trophies/72_3.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Third Place at Jhudora&#x27;s Cloud!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game34">
+                       
+                       <a href="/games/highscores/?game_id=34"> <img src="https://grundoscafe.b-cdn.net/games/trophies/34_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Ice Cream Machine!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game63">
+                       
+                       <a href="/games/highscores/?game_id=63"> <img src="https://grundoscafe.b-cdn.net/games/trophies/63_3.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Third Place at Wise Old King!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game37">
+                       
+                       <a href="/games/highscores/?game_id=37"> <img src="https://grundoscafe.b-cdn.net/games/trophies/37_3.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Third Place at Marrow Tax!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game67">
+                       
+                       <a href="/gctimes/search/?keyword=oops&username=true"><img src="https://grundoscafe.b-cdn.net/games/trophies/67_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Grundo Gazette
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           
+                               9×
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game58">
+                       
+                       <a href="/games/highscores/?game_id=58"> <img src="https://grundoscafe.b-cdn.net/games/trophies/58_3.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Third Place at GC Staff Smasher!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game76">
+                       
+                       <a href="/games/snowwars/"><img src="https://grundoscafe.b-cdn.net/games/trophies/76_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Snow Wars!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game77">
+                       
+                       <a href="/games/cheat/"><img src="https://grundoscafe.b-cdn.net/games/trophies/77_1.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <strong class="ul--gametrophyname">Cheat!
+                           
+                               
+                           
+                               
+                           
+                               
+                           
+                           CHAMPION!!!</strong>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game80">
+                       
+                       <a href="/games/pyramids/"><img src="https://grundoscafe.b-cdn.net/games/trophies/80_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Pyramids!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game48">
+                       
+                       <a href="/games/highscores/?game_id=48"> <img src="https://grundoscafe.b-cdn.net/games/trophies/48_2.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Second Place at Neocola Machine!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game42">
+                       
+                       <a href="/games/highscores/?game_id=42"> <img src="https://grundoscafe.b-cdn.net/games/trophies/42_3.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Third Place at Test Your Strength!</span>
+                       
+                   </div>
+                   
+                   <div class="ul__gametrophy ul__game70">
+                       
+                       <a href="/games/highscores/?game_id=70"> <img src="https://grundoscafe.b-cdn.net/games/trophies/70_3.gif" class="med-image ul--gametrophyimg"></a>
+                       
+                       
+                       <span class="ul--gametrophyname">Third Place at TNT Staff Smasher!</span>
+                       
+                   </div>
+                   
+               </div>
+
+           </div>
+           
+
+           
+       </div>
+       
+       
+
+
+   
+                </main>
+            </div>
+
+            <div id="sb_bottom" class="sb_top">
+                <div class="bottom-bar-items user-info" >
+                    <a class="lower-moon" rel="nofollow" href="/help/siteprefs/?redirect=/userlookup/&darkmode=true">
+                        <span id="howlatthelower" title="Moon"></span>
+                    </a>
+                    <div class="lower-info">
+                       
+                            
+<span id="user-info-welcome-text" class="user-info-welcome-text">Welcome, </span>
+<a id="user-info-username" class="user-info-username" href="/userlookup/?user=oops">oops</a>
+<a class="user-info-icon" href="/userlookup/?user=oops"><i class="fa fa-user"></i></a>
+<span class="after-un-divider">|</span>
+<span class="user-info-pet-texts">
+
+    <span id="user-info-pet-text" class="user-info-pet-text">Pet: </span>
+    <a id="user-info-pet" class="user-info-pet" href="/quickref/">Whew</a>
+
+</span>
+<span class="after-pn-divider">|</span>
+<span id="user-info-np-text" class="user-info-np-text"> NP: </span>
+<a id="on-hand-np" class="on-hand-np" href="/inventory/">166,505</a>
+<a class="user-info-np-icon" href="/inventory/"><i class="fa fa-coins"></i></a>
+
+
+
+
+                        
+                    </div>
+
+                    <a class="mobile-toggle" rel="nofollow" href="/help/siteprefs/?redirect=/userlookup/&mobilemode">
+                        <strong class="fas fa-mobile"></strong>
+                    </a>
+                </div>
+
+            </div>
+
+            
+            
+            
+
+		    <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div id="modal-body"></div>
+                </div>
+            </div>
+
+		    <!--footerinc -->
+            <div id="page_footer">
+                <div id="footer_content" class="smallfont">
+                    <p><strong class="purple">Grundo's Cafe</strong> is a fan recreation and is not affiliated with Neopets, Inc. NEOPETS, characters, logos, names and all related indicia are trademarks of <a href="http://www.neopets.com/aboutus.phtml">Neopets, Inc.</a> &copy; 1999-2025.
+                        <br><a href="/report/">Contact Us</a> | <a href="/help/aboutus/">About Us</a> | <a href="/help/">Help</a> | <a href="/help/privacy/">Privacy Policy</a> | <a href="/help/faq/">Frequently Asked Questions</a> | <a href="/art/credits/">Site Credits</a>
+                        <br>Use of this site signifies your acceptance of the <a href="/help/rules/">Terms and Conditions</a>.</p>
+                </div>
+            </div>
+
+
+
+		<!--AiO sidebar -->
+            
+        </div>
+
+        
+            <script src="/static/js/no_spam_clicks.js"></script>
+        
+
+    <script src="/static/js/site_scripts.js"></script>
+    
+
+	
+        
+            <form class="hidden-form" id="add-wl-item-form" action="/wishlist/edit/" method="POST" target="_blank">
+                <input type="hidden" name="csrfmiddlewaretoken" value="vZ47FABXMLJ5nZnaYr7xyYmNvVSzEJuSEvMoeMrhddPp6bS6q6NB9HPhI57n6P7A">
+                <input type="hidden" name="redirect" value="/userlookup/">
+                <input type="hidden" name="add" value="True">
+                <input type="hidden" name="qty" value="1">
+                <input type="hidden" name="reason" value="">
+                <input type="hidden" name="item" value="">
+            </form>
+            <script src="/static/js/submit_wish.js"></script>
+        
+
+	
+        
+
+    </body>
+</html>
