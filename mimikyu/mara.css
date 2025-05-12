@@ -1,0 +1,63 @@
+                /* bye bye */
+#sb_top, #sb_side, #sb_bottom, #page_banner, #page_footer, #aio_sidebar_placeholder, 
+#userLookupCollections strong, .ul--collectionslabel::after, .ul--headerlabel, hr {
+    display: none
+}
+
+/* format resetting */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    min-width: fit-content;
+}
+#page_event {
+    min-height: 0;
+}
+#page_content {
+    width: 600px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    background: #ecd6ac;
+}
+#userLookupContent {
+    margin-top: 0;
+}
+#userLookupDesc,
+#userLookupInfo,
+#userLookupPets,
+#userLookupSiteTrophies,
+#userLookupGameTrophies {
+    background: #fff;
+}
+
+/* text colors & basic stuff */
+body {
+    background: #79251d;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000;
+}
+#userLookupLinks,
+a:link#gamelink {
+    color: #000;
+}
+a, a.visited {
+    color: #000;
+}
+a:hover {
+    color: #1e2f2f;
+}
+strong {
+    color: #000;
+}
+
+/* boxes */
